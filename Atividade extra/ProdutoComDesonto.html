@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var valorProduto = parseInt(prompt("Digite o valor do Produto."))
+        var valorDesconto = parseInt(prompt("Digite o valor do Desconto."))
+
+        var valorComDesconto = valorProduto * (valorDesconto / 100)
+        var valorFinal = valorProduto - valorComDesconto
+
+        document.write("Valor do Produto é R$ "+ valorProduto+". <br> ")
+        document.write("Valor do desconto é "+ valorDesconto +"% <br> ")
+
+        document.write("O produto teve um desconto de " + valorDesconto + "% e seu preço final ficou em R$ " + valorFinal)
+
+    </script>
+</body>
+</html>

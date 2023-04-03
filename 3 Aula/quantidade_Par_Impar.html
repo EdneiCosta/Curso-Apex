@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+    
+        var numeroInicial  = parseInt(prompt("Digite o número inicial"))
+        var numeroFinal  = parseInt(prompt("Digite o número final"))
+        
+        var par = 0;
+        var impar = 0 
+        for(numeroInicial;numeroInicial <= numeroFinal; numeroInicial ++) {
+            if(numeroInicial % 2 == 0){
+                document.write(numeroInicial + "<br>")
+                par++
+            }else{
+                document.write(numeroInicial + "<br>")
+                impar++
+            }
+        }
+        document.write("Tem " + par + " número pares <br>")
+        document.write("Tem " + impar + " número impares <br>")
+        console.warn("erro")
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var numero1 = parseInt(prompt("Digite um lado do Triangulo"))
+        var numero2 = parseInt(prompt("Digite outro lado do Triangulo"))
+        var numero3 = parseInt(prompt("Digite outro lado do Triangulo"))
+
+        if(numero1 == numero2 & numero1 == numero3){
+            document.write("Triangulo Equilatero")
+        }else if(numero1 == numero2 && numero1 != numero3 || numero1 == numero3 && numero1 != numero2 ||numero2 == numero3 && numero2 != numero1){
+            document.write("Triangulo Isósceles")
+        }else{
+            document.write("Triangulo Escaleno ")
+        }
+    </script>
+    
+
+</body>
+</html>
